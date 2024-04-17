@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Kaiju</title>
+  <link href="logo.png" rel="shortcut icon" type="image/x-icon" />
+  <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/animate.css" rel="stylesheet" type="text/css" />
+  <link href="css/css.css" rel="stylesheet" type="text/css" />
+  <link href="css/media.css" rel="stylesheet" type="text/css" />
+  <script src="react/vue.js" type="text/javascript" charset="utf-8"></script>
+  <script src="react/ethers-5.2.umd.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+  <style type="text/css">
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div class="loading">
+      <span class="loadingfa xuanzhuan">
+        <img src="images/loading.png" alt="">
+      </span>
+    </div>
+
+    <div class="wapNav wap" style="width: 100px;">
+      <div class="switch"></div>
+      <div class="logo" style="width: 100px;">
+        <a href="#"><img src="images/logo.png" alt=""></a>
+      </div>
+    </div>
+    <div class="slideMenu">
+      <ul>
+        <li>
+          <h2 class="h2tit">
+            <a href="#">
+              <span class="icon"><img src="images/m1.png" alt=""></span>
+              <span class="title">Home</span>
+            </a>
+          </h2>
+        </li>
+        <li>
+          <h2 class="h2tit">
+            <a href="#About">
+              <span class="icon"><img src="images/m6.png" alt=""></span>
+              <span class="title">About</span>
+            </a>
+          </h2>
+        </li>
+        <li>
+          <h2 class="h2tit">
+            <a href="#kaiju-Image">
+              <span class="icon"><img src="images/m7.png" alt=""></span>
+              <span class="title">kaiju-Image</span>
+            </a>
+          </h2>
+        </li>
+
+
+
+
+
+
+
+
+
+        <!--     <li class="sub">
+          <h2 class="h2tit">
+            <a href="#">
+              <span class="icon"><img src="images/m7.png" alt=""></span>
+              <span class="title">More</span>
+            </a>
+          </h2>
+        <dl>
+            <dd>
+              <a href="" target="_blank">
+                The DeVerse
+              </a>
+            </dd>
+            <dd>
+              <a href="" target="_blank">
+               Techincal
+              </a>
+            </dd>
+            <dd>
+              <a href="" target="_blank">
+                DeV Token
+              </a>
+            </dd>
+          </dl>
+        </li>-->
+      </ul>
+      <!-- <div class="bottom">
+        <a href="#">
+          <span class="icon"><img src="images/m8.png" alt=""></span>
+          <span class="title">Language</span>
+        </a>
+      </div>-->
+    </div>
+
+    <div class="head ">
+      <div class="logo pc">
+        <a href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+      </div>
+      <div class="nav pc">
+        <ul>
+          <li>
+            <h2 class="h2tit">
+              <a href="#">Home</a>
+            </h2>
+          </li>
+          <li>
+            <h2 class="h2tit">
+              <a href="#About">About</a>
+            </h2>
+          </li>
+          <li>
+            <h2 class="h2tit">
+              <a href="#kaiju-Image">kaiju-Image</a>
+            </h2>
+          </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <li class="sub">
+            <h2 class="h2tit">
+              <a href="#">More</a>
+            </h2>
+            <dl>
+              <dd><a href="" target="_blank">The Kaiju</a></dd>
+              <dd><a href="" target="_blank">Techincal</a></dd>
+              <dd><a href="" target="_blank">DeV Token</a></dd>
+
+            </dl>
+          </li>-->
+        </ul>
+      </div>
+      <a class="more" @click="checkLink" v-text="showAccount" v-cloak style="cursor: pointer;">Connect {{sa}}</a>
+      <a href="https://t.me/Kaijuno8_ETH" target="_blank" class="more more1">Join in</a>
+    </div>
+
+
+    <div class="banner">
+      <div class="center">
+        <div class="title1">THE</div>
+        <div class="title2">
+          <img src="images/title.png" alt="">
+        </div>
+        <!--  <div class="dec">...</div>-->
+
+        <a href="https://x.com/kaijuerc20" target="_blank"><img src="images/twitter.png" width="40" height="40"
+            alt="" /></a>
+
+        <a href="https://t.me/Kaijuno8_ETH" target="_blank"><img src="images/telegram.png" width="40" height="40"
+            alt="" /></a>
+
+
+        <!--  <a href="#" class="more">Enter the metaverse</a>-->
+      </div>
+    </div>
+
+
+
+    <div class="main">
+      <div class="section1">
+        <div class="item" id="item2">
+          <div class="right wap">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/200.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/201.png" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/202.png" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/203.png" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/204.png" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/205.png" alt="">
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="left" id="About">
+            <div class="title1">Kaiju</div>
+            <div class="title2">Defense Force members face down terrifying Kaiju every day! </div>
+            <div class="dec">Kaiju It will spread in the encrypted world in the form of meme symbols.<br>
+
+
+              Be honest - would you be brave enough to join the Defense Force and face down Kaiju, or would you choose
+              the
+              (relative!) safety of cleaning up Kaiju guts with the Monster Sweepers?<br>
+              CA:<br>
+              0x4fE8d4775b7cB2546b9eE86182081CDF8f77B053</div>
+            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xda8f06e5e0fc0900fd09ec98a72630d3623e1158?t=1710401414547"
+              target="_blank" class="more">Dextools</a>
+          </div>
+          <div class="center"></div>
+          <div class="right pc">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/200.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/201.png" alt="">
+                  </div>
+                </div>
+
+
+
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/202.png" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/203.png" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/204.png" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/205.png" alt="">
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="item2">
+          <div class="right">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/300.PNG" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/301.PNG" alt="">
+                  </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/302.PNG" alt="">
+                  </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                  <div class="imgbox">
+                    <img src="images/303.PNG" alt="">
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="center"></div>
+          <div class="left">
+            <div class="title1">Kaiju</div>
+            <div class="title2">What do you think is a Kaiju's most frightening feature, their size or their speed?
+            </div>
+            <div class="dec">The most terrible thing about Kaiju is speed, which is a killer. And the same Kaiju has
+              great
+              energy, and the energy will be released at the fastest speed.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section2">
+        <div class="dec">Are you ready for it? The Kaiju opening teaser trailer arrives! Listen in for more updates!
+        </div>
+        <a href="https://t.me/Kaijuno8_ETH" target="_blank" class="more">Join in</a>
+      </div>
+      <div class="section3" id="kaiju-Image">
+        <div class="title">kaiju-Image</div>
+        <div class="list">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="imgbox">
+                  <iframe width="100%" src="https://www.youtube.com/embed/-MaTda-Ws3Y?si=zO-Y5QYyNmSlpIFx"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+
+
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+
+                  <iframe width="100%" src="https://www.youtube.com/embed/5-1wTVWKQe8?si=dUsw5GPil7NzcFwl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+
+
+                  <iframe width="100%" src="https://www.youtube.com/embed/c3ljNZsBOxE?si=z3ulnImW8hLS4AVx"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+
+                  <iframe width="100%" src="https://www.youtube.com/embed/xgvWhe8cmEc?si=AX4jVRAYqiDZvw9R"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+
+                </div>
+              </div>
+              <!--   <div class="swiper-slide">
+                <div class="imgbox">
+                  <img src="images/1.gif" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+                  <img src="images/2.gif" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+                  <img src="images/3.gif" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgbox">
+                  <img src="images/4.gif" alt="">
+                </div>
+              </div>-->
+            </div>
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="item1">
+        <div class="title"><img src="images/title3.png" alt=""></div>
+        <div class="link">
+          <a href="index.html">Home</a>
+          <a href="#About">About</a>
+          <a href="#kaiju-Image">kaiju-Image</a>
+          <a href="https://t.me/Kaijuno8_ETH" target="_blank">Telegram</a>
+          <a href="https://x.com/kaijuerc20" target="_blank">Twitter</a>
+          <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xda8f06e5e0fc0900fd09ec98a72630d3623e1158?t=1710401414547"
+            target="_blank">Dextools</a>
+
+
+        </div>
+      </div>
+      <div class="item2">
+        <div class="title">Contact Us</div>
+        <div class="link">
+          <!--   <a href="#" target="_blank"><img src="images/ibs1.png" alt=""></a>
+      <a href="#"><img src="images/ibs2.png" alt=""></a>
+      <a href="#"><img src="images/ibs3.png" alt=""></a>-->
+          <a href="https://t.me/Kaijuno8_ETH" target="_blank"><img src="images/ibs4.png" alt=""></a>
+
+          <a href="https://x.com/kaijuerc20" target="_blank"><img src="images/ibs5.png" alt=""></a>
+          <!-- <a href="https://www.pinksale.finance " target="_blank"><img src="images/ani16.png" alt=""></a>
+		 <a href="https://www.dexview.com" target="_blank"><img src="images/Audit.png" alt=""></a>-->
+        </div>
+      </div>
+      <div class="item3">
+        <img src="images/logo3.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/swiper.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/global.js"></script>
+  <script src="react/ethers-vue.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+
+  </script>
+</body>
+
+</html>

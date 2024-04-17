@@ -1,0 +1,1208 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 992px) {
+  .wap_nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 7777;
+  }
+  .wap_nav .logo {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .wap_nav .logo img {
+    height: 24px;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+  body {
+    padding-top: 0;
+  }
+
+  .pc {
+    display: none;
+  }
+  .wap {
+    display: block;
+  }
+
+  .head {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 44;
+    width: 100%;
+    background: #14181d;
+  }
+  .head .logo {
+    float: left;
+    padding-left: calc(29 / 992 * 100vw);
+  }
+  .head .logo a {
+  }
+  .head .logo img {
+  }
+  .head .nav {
+    float: left;
+    padding-left: calc(60 / 992 * 100vw);
+  }
+  .head .nav ul {
+  }
+  .head .nav ul li {
+    float: left;
+    position: relative;
+    margin-right: calc(56 / 992 * 100vw);
+  }
+  .head .nav ul li .h2tit {
+  }
+  .head .nav ul li .h2tit a {
+    display: block;
+    line-height: calc(88 / 992 * 100vw);
+    font-size: calc(24 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  .head {
+    position: static;
+    width: auto;
+    background: none;
+  }
+  .head .logo {
+    float: left;
+    padding-left: calc(29 / 992 * 100vw);
+  }
+  .head .logo a {
+  }
+  .head .logo img {
+  }
+  .head .nav {
+    float: left;
+    padding-left: calc(60 / 992 * 100vw);
+  }
+  .head .nav ul {
+  }
+  .head .nav ul li {
+    float: left;
+    position: relative;
+    margin-right: calc(56 / 992 * 100vw);
+  }
+  .head .nav ul li .h2tit {
+  }
+  /*.head .nav ul li .h2tit a {display:block;line-height:calc(88 / 992 * 100vw);font-size:calc(24 / 992 * 100vw);font-family:AkzidenzGroteskBQ;font-weight:normal;color:#ffffff;padding-right:calc(20 / 992 * 100vw);background:url(../images/down.png) no-repeat right center;}
+*/
+  .head .nav ul li.sub {
+  }
+  .head .nav ul li.sub .h2tit {
+  }
+  .head .nav ul li.sub .h2tit a {
+    padding-right: calc(20 / 992 * 100vw);
+    background: url(../images/down.png) no-repeat right center;
+  }
+  .head .more {
+    float: right;
+    margin-right: 10px;
+    margin-top: 13px;
+    width: 104px;
+    line-height: 20px;
+    border: calc(5 / 992 * 100vw) solid #fff;
+    border-radius: calc(25 / 992 * 100vw);
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: fixed;
+    z-index: 33;
+    top: 0;
+    right: 5px;
+  }
+  .head .more1 {
+    right: 125px;
+  }
+  .banner {
+    background: url(../images/100.png) no-repeat center center;
+    background-size: cover;
+    height: calc(984 / 992 * 100vw);
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    line-height: 1;
+  }
+  .banner .title1 {
+    font-size: calc(57 / 992 * 100vw);
+    font-family: AMOceanus;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .banner .title2 {
+    height: calc(136 / 992 * 100vw);
+    position: relative;
+    margin: calc(20 / 992 * 100vw) 0px;
+  }
+  .banner .title2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: calc(346 / 992 * 100vw);
+  }
+  .banner .dec {
+    font-size: calc(35 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: calc(70 / 992 * 100vw);
+  }
+  .banner .more {
+    width: calc(574 / 992 * 100vw);
+    line-height: calc(82 / 992 * 100vw);
+    font-size: calc(28 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    background: url(../images/more.png) no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .banner .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .main:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 105%;
+    background: #000;
+    top: calc(14 / 992 * 100vw); /* opacity:0;*/
+  }
+  .main:before {
+    background: url(../images/bjsj.jpg) no-repeat center 0;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .main {
+    margin-top: calc(964 / 992 * 100vw);
+    z-index: 4;
+    position: relative;
+    overflow: hidden;
+  }
+  .section1 {
+    padding-top: calc(75 / 992 * 100vw);
+  }
+  .section1 .item {
+    /* display:flex;*/
+    display: block;
+  }
+  .section1 .item#item1 {
+    padding-left: 15px;
+    padding-right: 15px; /* display:flex;*/ /* align-items:center;*/
+    margin-bottom: 10vw;
+  }
+  .section1 .item .left {
+    width: 100%;
+    float: none;
+  }
+  .section1 .item .left .title1 {
+    font-size: calc(40 / 992 * 100vw);
+  }
+  .section1 .item .left .title2 {
+    font-size: calc(56 / 992 * 100vw);
+    line-height: 1;
+    padding-top: calc(21 / 992 * 100vw);
+    padding-bottom: calc(70 / 992 * 100vw);
+  }
+  .section1 .item .left .dec {
+    font-size: calc(40 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1.5;
+    padding-bottom: calc(101 / 992 * 100vw);
+  }
+  .section1 .item .left .more {
+    font-size: calc(36 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    background: url(../images/more2.png) no-repeat center center;
+    width: calc(285 / 992 * 100vw);
+    line-height: calc(83 / 992 * 100vw);
+    border-radius: 1;
+  }
+  .section1 .item .right {
+    flex: 1;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .section1 .item .right .swiper-container {
+  }
+  .section1 .item .right .swiper-wrapper {
+  }
+  .section1 .item .right .swiper-slide {
+  }
+  .section1 .item .right .imgbox {
+  }
+  .section1 .item .right .imgbox img {
+    width: 100% !important;
+  }
+  .section1 .item#item2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section1 .item#item2 .right {
+    float: left;
+  }
+  .section1 .item#item2 .right .swiper-container {
+  }
+  .section1 .item#item2 .right .swiper-wrapper {
+  }
+  .section1 .item#item2 .right .swiper-slide {
+  }
+  .section1 .item#item2 .right .imgbox {
+    text-align: left;
+  }
+  .section1 .item#item2 .right .imgbox img {
+  }
+  .section1 .item#item2 .left {
+    float: right;
+    width: 100%;
+    margin-left: 0;
+  }
+  .section1 .item#item2 .left .title1 {
+  }
+  .section1 .item#item2 .left .title2 {
+  }
+  .section1 .item#item2 .left .dec {
+  }
+  .section1 .item .center {
+    width: calc(20 / 992 * 100vw);
+    height: calc(40 / 992 * 100vw);
+  }
+  .section2 {
+    position: relative;
+    z-index: 56;
+    text-align: center;
+    padding-top: calc(200 / 992 * 100vw);
+    padding-bottom: calc(300 / 992 * 100vw);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section2 .dec {
+    width: calc(1333 / 992 * 100vw);
+    font-size: calc(40 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 100%;
+  }
+  .section2 .more {
+    display: block;
+    margin: auto;
+    width: calc(603 / 992 * 100vw);
+    line-height: calc(82 / 992 * 100vw);
+    background: url(../images/more3.png) no-repeat center center;
+    border-radius: calc(41 / 992 * 100vw);
+    text-transform: uppercase;
+    font-size: calc(30 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #fff;
+    margin-top: calc(66 / 992 * 100vw);
+    background-size: 100% 100%;
+  }
+  .section3 {
+    position: relative;
+    z-index: 55;
+    padding-left: calc(26 / 992 * 100vw);
+    padding-right: calc(26 / 992 * 100vw);
+    padding-bottom: calc(160 / 992 * 100vw); /* background:#000;*/
+  }
+  .section3 .title {
+    font-size: calc(60 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: calc(68 / 992 * 100vw);
+  }
+  .section3 .list {
+  }
+  .section3 .list .imgbox {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .section3 .list .imgbox img {
+    width: 100%;
+    height: calc(504 / 992 * 100vw);
+    object-fit: cover;
+  }
+  .footer {
+    background: url(../images/footer.png) no-repeat center 0;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+    margin-top: calc(-60 / 992 * 100vw);
+    padding-top: calc(160 / 992 * 100vw);
+    padding-left: 20px;
+    padding-right: 20px;
+    zoom: 1;
+    padding-bottom: calc(100 / 992 * 100vw);
+    overflow: hidden;
+    padding-bottom: 55px;
+  }
+  .footer .item1 {
+    float: none;
+    text-align: center;
+  }
+  .footer .item1 .title {
+  }
+  .footer .item1 .title img {
+  }
+  .footer .item1 .link {
+    padding-top: calc(64 / 992 * 100vw);
+    padding-left: 0;
+    zoom: 1;
+    overflow: hidden;
+  }
+  .footer .item1 .link a {
+    font-size: calc(30 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    width: 33.333%;
+    float: left;
+    margin-bottom: calc(39 / 992 * 100vw);
+  }
+  .footer .item2 {
+    float: none;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .footer .item2 .title {
+    font-size: calc(44 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1;
+  }
+  .footer .item2 .link {
+    padding-top: calc(41 / 992 * 100vw);
+  }
+  .footer .item2 .link a {
+    margin-right: calc(36 / 992 * 100vw);
+  }
+  .footer .item2 .link a img {
+    height: 20px;
+  }
+  .footer .item3 {
+    float: none;
+    height: 40px;
+    margin-top: 5vw;
+    text-align: center;
+  }
+  .footer .item3 img {
+    margin-top: calc(-16 / 992 * 100vw);
+    margin: auto;
+    margin-top: -6px;
+  }
+
+  .cbanner1 {
+    height: calc(715 / 992 * 100vw);
+    margin-top: calc(88 / 992 * 100vw);
+    background: url(../images/cbanner1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cbanner1 .title b {
+    color: #5d0bcc;
+  }
+
+  .cbanner1 .title {
+    font-size: calc(119 / 992 * 100vw);
+    padding-top: calc(192 / 992 * 100vw);
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .cbanner1 .title img {
+  }
+
+  .cbanner1 .search {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: right;
+    padding: calc(26 / 992 * 100vw);
+    padding-right: calc(26 / 992 * 100vw);
+  }
+
+  .cbanner1 .search form {
+    width: calc(586 / 992 * 100vw);
+    height: calc(80 / 992 * 100vw);
+    float: none;
+    background: url(../images/searbg.png) no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+  }
+
+  .cbanner1 .search .words {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    padding: 0px calc(52 / 992 * 100vw);
+    font-size: calc(30 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #989898;
+    padding-right: calc(120 / 992 * 100vw);
+  }
+
+  .cbanner1 .search .send {
+    background: url(../images/search.png) no-repeat center center;
+    width: calc(110 / 992 * 100vw);
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border: none;
+    background-size: 42%;
+  }
+
+  .activitylist {
+    padding-top: 10vw;
+    zoom: 1;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10vw;
+  }
+
+  .activitylist li:nth-child(2n) {
+    float: right;
+  }
+
+  .activitylist li {
+    width: 100%;
+    margin-bottom: calc(66 / 992 * 100vw);
+  }
+
+  .activitylist li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: calc(15 / 992 * 100vw);
+    line-height: 1;
+  }
+
+  .activitylist li a * {
+    display: block;
+  }
+
+  .activitylist li a .imgbox {
+  }
+
+  .activitylist li a .imgbox img {
+    width: 100%;
+    height: calc(460 / 992 * 100vw);
+    object-fit: cover;
+  }
+
+  .activitylist li a .content {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.6);
+    padding: calc(21 / 992 * 100vw) calc(57 / 992 * 100vw)
+      calc(25 / 992 * 100vw);
+  }
+
+  .activitylist li a .title {
+    font-size: calc(41 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  .activitylist li a .dec {
+    color: #fff;
+    font-size: calc(20 / 992 * 100vw);
+    padding-top: calc(15 / 992 * 100vw);
+    display: none;
+  }
+
+  .activitylist li a .infor1 {
+    padding-top: calc(40 / 992 * 100vw);
+  }
+
+  .activitylist li a .tit {
+    font-size: calc(24 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    display: inline-block;
+  }
+
+  .activitylist li a .val {
+    font-size: calc(36 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    display: inline-block;
+  }
+
+  .activitylist li a .val img {
+    display: inline-block;
+    width: calc(22 / 992 * 100vw);
+    margin-right: calc(5 / 992 * 100vw);
+  }
+
+  .activitylist li a .val em {
+    display: inline-block;
+    font-size: calc(24 / 992 * 100vw);
+    color: #f428f9;
+    font-style: normal;
+  }
+
+  .activitylist li a .infor2 {
+    font-size: calc(26 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #838383;
+    padding-top: calc(18 / 992 * 100vw);
+  }
+
+  .activitylist li a .imgbox img {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .activitylist li a:hover .imgbox img {
+    -webkit-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+  }
+
+  .cbanner2 {
+    height: calc(703 / 992 * 100vw);
+    background: url(../images/cbanner2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin-top: calc(88 / 992 * 100vw);
+    padding-left: calc(209 / 992 * 100vw);
+    padding-top: calc(145 / 992 * 100vw);
+  }
+  .cbanner2 .title0 {
+    text-align: center;
+    font-size: calc(57 / 992 * 100vw);
+    font-family: AMOceanus;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+    text-shadow: 0px 0px 54px #5b009b;
+    width: calc(580 / 992 * 100vw);
+  }
+  .cbanner2 .title {
+    display: inline-block;
+    margin-top: calc(-88 / 992 * 100vw);
+    margin-left: calc(-80 / 992 * 100vw);
+  }
+  .cbanner2 .title img {
+    height: calc(346 / 992 * 100vw);
+  }
+  .cbanner2 .dec {
+    font-size: calc(28 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-top: calc(-88 / 992 * 100vw);
+    width: calc(640 / 992 * 100vw);
+  }
+
+  .aboutMain .block2:after,
+  .aboutMain .block1:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .aboutMain .block2,
+  .aboutMain .block1 {
+    padding-bottom: 5vw;
+  }
+  .aboutMain {
+    /* Your styles for .aboutMain here */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: calc(100 / 992 * 100vw);
+    padding-bottom: 6vw;
+    zoom: 1;
+    overflow: hidden;
+  }
+  .aboutMain .block1 .item:nth-child(3n) {
+    margin-right: 0px;
+  }
+  .aboutMain .block1 .item {
+    /* Your styles for .item inside .block1 here */
+    margin-right: 0px;
+    width: 100%;
+    height: calc(438 / 992 * 100vw);
+    margin-bottom: 5vw;
+  }
+  .aboutMain .block1 .item a * {
+    display: block;
+  }
+  .aboutMain .block1 .item a {
+    /* Your styles for anchor tags inside .item inside .block1 here */
+    display: block;
+    height: 100%;
+    position: relative;
+    padding-top: 0;
+    padding-left: calc(43 / 992 * 100vw);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutMain .block1 .item .title {
+    /* Your styles for .title inside .item inside .block1 here */
+    font-size: calc(88 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: calc(29 / 992 * 100vw);
+  }
+  .aboutMain .block1 .item .dec {
+    /* Your styles for .dec inside .item inside .block1 here */
+    width: calc(453 / 992 * 100vw);
+    font-size: calc(18 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  .aboutMain .block1 .item .icon {
+    /* Your styles for .icon inside .item inside .block1 here */
+  }
+  .aboutMain .block1 .item .icon img {
+    /* Your styles for images inside .icon inside .item inside .block1 here */
+    height: calc(263 / 992 * 100vw);
+    position: absolute;
+    right: calc(40 / 992 * 100vw);
+    bottom: calc(10 / 992 * 100vw);
+  }
+  .aboutMain .block2 {
+    /* Your styles for .block2 here */
+  }
+  .aboutMain .block2 .title {
+    /* Your styles for .title inside .block2 here */
+    font-size: calc(48 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 4vw;
+  }
+  .aboutMain .block2 .list {
+    /* Your styles for .list inside .block2 here */
+  }
+  .aboutMain .block2 .item:nth-child(3n) {
+    margin-right: 0px;
+  }
+  .aboutMain .block2 .item:nth-child(2) {
+    background: #ff00a2;
+  }
+  .aboutMain .block2 .item:nth-child(3) {
+    background: #ff7800;
+  }
+  .aboutMain .block2 .item {
+    /* Your styles for .item inside .block2 here */
+    margin-right: 0;
+    width: 100%;
+    height: calc(278 / 992 * 100vw);
+    background: #b700fe;
+    border-radius: calc(16 / 992 * 100vw);
+    margin-bottom: 3vw;
+  }
+  .aboutMain .block2 .item a {
+    /* Your styles for anchor tags inside .item inside .block2 here */
+    display: block;
+    position: relative;
+    height: 100%;
+    padding-top: calc(65 / 992 * 100vw);
+    padding-left: calc(38 / 992 * 100vw);
+  }
+  .aboutMain .block2 .item .left {
+    /* Your styles for .left inside .item inside .block2 here */
+    float: left;
+  }
+  .aboutMain .block2 .item .tit {
+    /* Your styles for .tit inside .left inside .item inside .block2 here */
+    font-size: calc(62 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    padding-bottom: calc(29 / 992 * 100vw);
+  }
+  .aboutMain .block2 .item .dec {
+    /* Your styles for .dec inside .left inside .item inside .block2 here */
+    font-size: calc(18 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  .aboutMain .block2 .item .icon {
+    /* Your styles for .icon inside .item inside .block2 here */
+    position: absolute;
+    top: 50%;
+    right: calc(26 / 992 * 100vw);
+    -o-transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+  }
+  .aboutMain .block2 .item .icon img {
+    /* Your styles for images inside .icon inside .item inside .block2 here */
+    height: calc(151 / 992 * 100vw);
+  }
+  .aboutMain .block3 {
+    /* Your styles for .block3 here */
+  }
+  .aboutMain .block3 .title {
+    /* Your styles for .title inside .block3 here */
+    font-size: calc(48 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 4vw;
+  }
+  .aboutMain .block3 .list {
+    /* Your styles for .list inside .block3 here */
+  }
+  .aboutMain .block3 .item:last-child {
+    margin-right: 0px;
+  }
+  .aboutMain .block3 .item {
+    /* Your styles for .item inside .block3 here */
+    height: calc(378 / 992 * 100vw);
+    border-radius: calc(16 / 992 * 100vw);
+    float: none;
+    width: 100%;
+    margin-right: calc(20 / 992 * 100vw);
+    overflow: hidden;
+    margin-bottom: 4vw;
+  }
+  .aboutMain .block3 .item a {
+    /* Your styles for anchor tags inside .item inside .block3 here */
+    display: block;
+    height: 100%;
+    position: relative;
+  }
+  .aboutMain .block3 .item img {
+    /* Your styles for images inside .item inside .block3 here */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .aboutMain .block3 .item .con {
+    /* Your styles for .con inside .item inside .block3 here */
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    padding: 0px calc(25 / 992 * 100vw);
+    padding-bottom: calc(16 / 992 * 100vw);
+  }
+  .aboutMain .block3 .item .con .text {
+    /* Your styles for .text inside .con inside .item inside .block3 here */
+  }
+  .aboutMain .block3 .item .con .text .tit {
+    /* Your styles for .tit inside .text inside .con inside .item inside .block3 here */
+    font-size: calc(35 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: calc(23 / 992 * 100vw);
+  }
+  .aboutMain .block3 .item .con .text .dec {
+    /* Your styles for .dec inside .text inside .con inside .item inside .block3 here */
+    font-size: calc(18 / 992 * 100vw);
+    font-family: Adobe Heiti Std;
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  .nftMain {
+    padding-left: 15px;
+    margin-top: 50px;
+    padding-top: calc(127 / 992 * 100vw);
+  }
+  .nftMain .textmodel1 {
+    padding-right: 15px;
+  }
+  .nftMain .textmodel1 .title {
+    /* CSS styles for the title element */
+    font-size: calc(79 / 992 * 100vw);
+  }
+  .nftMain .textmodel1 .dec {
+    /* CSS styles for the description element */
+    font-size: calc(30 / 992 * 100vw);
+    padding-top: calc(24 / 992 * 100vw);
+  }
+  .nftMain .textmodel1 .list:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .nftMain .textmodel1 .list {
+    /* CSS styles for the list container */
+    padding-top: calc(85 / 992 * 100vw);
+  }
+  .nftMain .textmodel1 .item {
+    /* CSS styles for the list item */
+    width: calc((100% - calc(20 / 992 * 100vw)) / 2);
+    margin-right: calc(20 / 992 * 100vw);
+    margin-bottom: 5vw;
+  }
+  .nftMain .textmodel1 .item:nth-child(2n) {
+    margin-right: 0px;
+  }
+  .nftMain .textmodel1 .item a {
+    /* CSS styles for the link within the list item */
+    height: calc(213 / 992 * 100vw);
+    border-radius: calc(22 / 992 * 100vw);
+  }
+  .nftMain .textmodel1 .item .icon {
+    /* CSS styles for the icon container within the list item */
+    position: absolute;
+    right: calc(6 / 992 * 100vw);
+    bottom: calc(10 / 992 * 100vw);
+  }
+  .nftMain .textmodel1 .item .icon img {
+    /* CSS styles for the image within the icon container */
+    height: calc(141 / 992 * 100vw);
+  }
+  .nftMain .textmodel1 .item .tit {
+    /* CSS styles for the title within the list item */
+    font-size: calc(54 / 992 * 100vw);
+    padding-top: 0;
+    padding-left: calc(26 / 992 * 100vw);
+    display: block;
+    line-height: calc(243 / 992 * 100vw);
+  }
+  .nftMain .nftList {
+    padding-top: calc(133 / 992 * 100vw);
+  }
+  .nftMain .nftList .itemModel {
+    padding-bottom: calc(115 / 992 * 100vw);
+  }
+  .nftMain .nftList .itemModel .text {
+    margin-bottom: calc(75 / 992 * 100vw);
+  }
+  .nftMain .nftList .itemModel .text .left {
+    float: left;
+  }
+  .nftMain .nftList .itemModel .text .left .title1 {
+    /* CSS styles for the first title within the text section */
+    font-size: calc(68 / 992 * 100vw);
+  }
+  .nftMain .nftList .itemModel .text .left .title2 {
+    /* CSS styles for the second title within the text section */
+    font-size: calc(24 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    padding-top: calc(20 / 992 * 100vw);
+    padding-bottom: calc(34 / 992 * 100vw);
+  }
+  .nftMain .nftList .itemModel .text .left .all {
+    /* CSS styles for the "all" element within the text section */
+    width: calc(118 / 992 * 100vw);
+    line-height: calc(46 / 992 * 100vw);
+    background: #b700fe;
+    border-radius: calc(23 / 992 * 100vw);
+    text-align: center;
+    font-size: calc(30 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .nftMain .nftList .itemModel .text .more {
+    /* CSS styles for the "more" link within the text section */
+    font-size: calc(24 / 992 * 100vw);
+    right: calc(37 / 992 * 100vw);
+    padding-right: calc(30 / 992 * 100vw);
+    background: url(../images/moret.png) no-repeat right center;
+    background-size: calc(15 / 992 * 100vw);
+  }
+  .nftMain .nftList .list .swiper-container {
+    /* CSS styles for the swiper container within the list section */
+  }
+  .nftMain .nftList .list .swiper-wrapper {
+    /* CSS styles for the swiper wrapper within the list section */
+  }
+  .nftMain .nftList .list .swiper-slide a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: calc(18 / 992 * 100vw);
+    left: 0px;
+    top: 0px;
+  }
+  .nftMain .nftList .list .swiper-slide a {
+    /* CSS styles for the link within the swiper slide */
+    display: block;
+    padding: calc(1 / 992 * 100vw);
+    position: relative;
+  }
+  .nftMain .nftList .list .swiper-slide .imgbox {
+    /* CSS styles for the image box within the swiper slide */
+    position: relative;
+    z-index: 5;
+  }
+  .nftMain .nftList .list .swiper-slide .imgbox img {
+    /* CSS styles for the image within the image box */
+    display: block;
+    width: 100%;
+  }
+  .nftMain .nftList .list .swiper-slide .imgbox .text1 {
+    /* CSS styles for the first text element within the image box */
+    padding-left: calc(32 / 992 * 100vw);
+    font-size: calc(30 / 992 * 100vw);
+    bottom: calc(75 / 992 * 100vw);
+  }
+  .nftMain .nftList .list .swiper-slide .imgbox .text2 {
+    /* CSS styles for the second text element within the image box */
+    bottom: calc(21 / 992 * 100vw);
+    width: 100%;
+    padding-left: calc(112 / 992 * 100vw);
+  }
+  .nftMain .nftList .list .swiper-slide .imgbox .text2 b {
+    /* CSS styles for the bold element within the second text element */
+    font-size: calc(58 / 992 * 100vw);
+  }
+  .nftMain .nftList .list .swiper-slide .imgbox .text2 span {
+    /* CSS styles for the span element within the second text element */
+    font-size: calc(28 / 992 * 100vw);
+    color: #ff01eb;
+    display: inline-block;
+  }
+
+  .mapAlert {
+  }
+  .mapAlert .shadow {
+    /* Your CSS styles for .shadow element here */
+  }
+  .mapAlert .center {
+    /* Your CSS styles for .center element here */
+    width: 90%;
+    border-radius: calc(24 / 992 * 100vw);
+    padding-top: calc(38 / 992 * 100vw);
+  }
+  .mapAlert .imgbox img {
+    width: calc(314 / 992 * 100vw);
+  }
+  .mapAlert .text {
+    padding-left: calc(49 / 992 * 100vw);
+    padding-right: calc(49 / 992 * 100vw);
+    padding-bottom: calc(48 / 992 * 100vw);
+  }
+  .mapAlert .text .text1 {
+    font-size: calc(40 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1;
+  }
+  .mapAlert .text .text2 {
+    padding-bottom: calc(42 / 992 * 100vw);
+    padding-top: calc(21 / 992 * 100vw);
+  }
+  .mapAlert .text .text2 .name {
+    /* width:64px;*/
+    line-height: 1;
+    border: 2px solid #c0c0c0;
+    display: inline-block;
+    padding: 0px 11px;
+    font-size: calc(39 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #bfbfbf;
+  }
+  .mapAlert .text .text2 .loca {
+    font-size: calc(34 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: calc(34 / 992 * 100vw);
+    margin-left: calc(10 / 992 * 100vw);
+    line-height: calc(33 / 992 * 100vw);
+    background: url(../images/pos.png) no-repeat left center;
+    background-size: auto 100%;
+  }
+  .mapAlert .text .text3 {
+    padding-top: 0;
+    zoom: 1;
+    overflow: hidden;
+    display: flex;
+  }
+  .mapAlert .text .text3 .s1 {
+    font-size: calc(44 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #6a6c6e;
+    line-height: calc(33 / 992 * 100vw);
+  }
+  .mapAlert .text .text3 p {
+    margin-right: calc(74 / 992 * 100vw);
+  }
+  .mapAlert .text .text3 .s2 {
+    padding-top: calc(20 / 992 * 100vw);
+    line-height: calc(31 / 992 * 100vw);
+    font-size: calc(44 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+  }
+  .mapAlert .text .text3 .s2 img {
+    height: calc(31 / 992 * 100vw);
+    vertical-align: bottom;
+    margin-right: calc(10 / 992 * 100vw);
+  }
+  .mapAlert .text .text4 {
+    padding-top: calc(28 / 992 * 100vw);
+    padding-bottom: calc(52 / 992 * 100vw);
+  }
+  .mapAlert .text .text4 .s1 {
+    font-size: calc(44 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #6a6c6e;
+    padding-bottom: calc(33 / 992 * 100vw);
+  }
+  .mapAlert .text .text4 .s2 {
+    /* Your CSS styles for .s2 element here */
+    font-size: calc(48 / 992 * 100vw);
+    font-family: AkzidenzGroteskBQ;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 2;
+  }
+  .mapAlert .text .text4 .s2 p {
+    /* Your CSS styles for <p> elements inside .s2 here */
+    padding-left: calc(48 / 992 * 100vw);
+    background: url(../images/jx3.png) no-repeat calc(12 / 992 * 100vw) center;
+    background-size: calc(15 / 992 * 100vw);
+  }
+  .mapAlert .more {
+    /* Your CSS styles for .more element here */
+    width: 100%;
+    line-height: 2;
+    border: calc(3 / 992 * 100vw) solid #b700fe;
+    border-radius: calc(59 / 992 * 100vw);
+    font-size: calc(40 / 992 * 100vw);
+  }
+  .mapAlert .close {
+    right: calc(40 / 992 * 100vw);
+    top: calc(37 / 992 * 100vw);
+    width: calc(53 / 992 * 100vw);
+    height: calc(53 / 992 * 100vw);
+  }
+
+  .mapMain {
+    height: calc(1100 / 992 * 100vw);
+  }
+  .mapMain .mapWrap {
+    width: calc(800 / 992 * 100vw);
+    height: calc(800 / 992 * 100vw);
+    margin-top: calc(200 / 992 * 100vw);
+  }
+  .mapMain .mapContent {
+  }
+  .mapMain .item {
+    cursor: pointer;
+    position: absolute;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .mapMain .item:hover {
+    transform: translateY(-10px);
+  }
+  .mapMain .item span {
+    display: none;
+  }
+  .mapMain .item img {
+    width: calc(100 / 992 * 100vw);
+    height: calc(48 / 992 * 100vw);
+    animation: move 0.8s infinite;
+    -moz-animation: move 0.8s infinite;
+    -webkit-animation: move 0.8s infinite;
+    -o-animation: move 0.8s infinite;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.46, 0.02, 0.97, 0.36);
+    -webkit-animation-timing-function: cubic-bezier(0.46, 0.02, 0.97, 0.36);
+  }
+
+  .footer .item3 img,
+  .footer .item1 .title img {
+    height: 30px;
+  }
+}
